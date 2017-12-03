@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab-2</string>
+    <string name="Description">This is an Application to Demonstrate Options and Menus\n Choose from Right Top Corner</string>
+    <string name="NextButton">Next</string>
+    <string name="ExitButton">Exit</string>
+    <string name="Desp">Click on the list area to select</string>
+    <string name="ShapeGuide">This is a Shape Generator</string>
+    <string name="ShapeDesp">1. Long Press Selection of Shape in First Blank\n2. Long Press Selection of Color in the Second Blank</string>
+    <string name="ColorDesp">Select a color to change the background color of Current screen</string>
+</resources>

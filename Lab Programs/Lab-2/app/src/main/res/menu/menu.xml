@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Images"
+        android:id="@+id/Option1"/>
+    <item
+        android:title="Shapes"
+        android:id="@+id/Option2"/>
+    <item
+        android:title="Background"
+        android:id="@+id/Option3"/>
+</menu>

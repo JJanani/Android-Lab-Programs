@@ -1,0 +1,25 @@
+For All the codes
+
+1. Add following in the gradle (Project gradle not the module gradle)
+
+allprojects {
+    repositories {
+        jcenter()
+        maven
+                {
+                    url 'https://maven.google.com'
+                }
+    }
+}
+
+2. In the Module gradle change targetSdkVersion to 19
+
+3. The Manifest file needs to be checked wherever needed
+
+Some Codes
+
+1. May need images to be inserted in the drawable folder
+
+2. Map Program will need the following line also in the Module gradle at the end before testCompile Line
+
+	compile 'com.google.android.gms:play-services-location:7.+'

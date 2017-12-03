@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aakash.lab_1.MainActivity">
+
+    <!-- Introduction to application Text View -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Introduction"
+        android:text="@string/Introduction"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="40dp"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <!-- Edit Texts for User Input -->
+    <EditText
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/FirstName"
+        android:hint="@string/FirstName"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Introduction"
+        android:layout_margin="5dp" />
+
+    <EditText
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/LastName"
+        android:hint="@string/LastName"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/FirstName"
+        android:layout_margin="5dp" />
+
+    <!-- Gender Text View -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Gender"
+        android:layout_below="@id/LastName"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Gender"
+        android:textSize="20dp"
+        android:layout_margin="20dp"/>
+
+    <!-- Radio Group of Buttons -->
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/Gender"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:id="@+id/RadioGender">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Male"
+            android:text="@string/Male" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Female"
+            android:text="@string/Female"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Other"
+            android:text="@string/Other"/>
+    </RadioGroup>
+
+    <!-- Next Page Button Event -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="25dp"
+        android:text="@string/Button1"
+        android:onClick="newpage"/>
+
+</RelativeLayout>

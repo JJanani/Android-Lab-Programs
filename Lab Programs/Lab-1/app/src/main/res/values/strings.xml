@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lab-1</string>
+    <string name="Introduction">This is a Simple Application\n\nEnter the Details Below</string>
+    <string name="FirstName">Enter First Name</string>
+    <string name="LastName">Enter Last Name</string>
+    <string name="Gender">Choose Gender</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="Other">Other</string>
+    <string name="Button1">Confirm</string>
+    <string name="Previous">Back</string>
+    <string name="Exit">Exit</string>
+</resources>
